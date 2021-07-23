@@ -32,4 +32,3 @@ window.addEventListener("load", () => {
     }
 })
 
-// 78f9fa8d63f5890688b8e10f35d7751c api key

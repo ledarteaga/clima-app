@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.location, .temperature {
+    color: white;
+    font-family: sans-serif;
+}
+
+.location-position{
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.temperature, .description{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+}
+

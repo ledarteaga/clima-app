@@ -28,6 +28,11 @@ window.addEventListener("load", () => {
                   temperatureDescription.textContent = description;
                   
                 })
+                .catch(err => {
+                     console.log(err);
+                     window.alert('Ocurrio un error consiguiendo la informacion! :(')
+                })
+               
         })
     }
 })

@@ -11,7 +11,7 @@ window.addEventListener("load", () => {
             long = position.coords.longitude;
             
             const proxy = 'https://cors-anywhere.herokuapp.com/';
-            const api = `${proxy}api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=78f9fa8d63f5890688b8e10f35d7751c`;
+            const api = `${proxy}api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=metric&appid=78f9fa8d63f5890688b8e10f35d7751c`;
 
             fetch(api)
             .then(response => {return response.json()})
@@ -24,7 +24,7 @@ window.addEventListener("load", () => {
                   //Cambiando el DOM con los datos de la API
 
                   locationPosition.textContent = name;
-                  temperatureDegree.textContent = `${temp} F`;
+                  temperatureDegree.textContent = `${temp} C°`;
                   temperatureDescription.textContent = description;
                   
                 })

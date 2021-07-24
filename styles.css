@@ -2,10 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: darkslategrey;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 body {
-    background-color: aqua;
+    background-color: whitesmoke;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -14,14 +17,10 @@ body {
     text-align: center;
 }
 
-.location, .temperature {
-    color: white;
-    font-family: sans-serif;
-}
+
 
 .location-position{
     margin: 10px;
-    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
 }
 
@@ -31,7 +30,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     text-transform: capitalize;
     margin: 10px;
-    color: white;
     font-size: 30px;
 }
+
+ footer {
+     position: absolute;
+     top: 95%;
+     text-align: center;
+ }
 

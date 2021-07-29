@@ -1,8 +1,12 @@
-# clima-app
+# Clima
 
 Prueba de la API de Open Weather.
 
 Documentacion de la APi: https://openweathermap.org/current#geo
+
+# Link Directo
+
+https://ledarteaga.github.io/clima-app/
 
 # Uso: 
 

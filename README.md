@@ -4,7 +4,7 @@ Prueba de la API de Open Weather.
 
 Documentacion de la APi: https://openweathermap.org/current#geo
 
-Uso: 
+# Uso: 
 
 Es necesario habilitar el uso de un servidor de prueba publico para que funcione la API. 
 
